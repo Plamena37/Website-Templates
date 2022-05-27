@@ -1,9 +1,10 @@
-@import url("header.css");
-@import url("operations.css");
-@import url("slider.css");
-@import url("testimonials.css");
-@import url("footer.css");
-@import url("modal.css");
+@import url('header.css');
+@import url('feature.css');
+@import url('operations.css');
+@import url('slider.css');
+@import url('testimonials.css');
+@import url('footer.css');
+@import url('modal.css');
 
 :root {
   --color-primary: #5ec576;
@@ -31,11 +32,14 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
   color: #444;
   line-height: 1.9;
   background-color: #f3f3f3;
 }
 
-/************************************ GENERAL ELEMENTS ************************************/
+/* GENERAL ELEMENTS ************************************/
+p {
+  color: #666;
+}
