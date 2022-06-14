@@ -1,5 +1,5 @@
 # Website-Templates
-✨ Website Templates created mainly with HTML and CSS ✨
+✨ Website Templates created with HTML, CSS and JavaScript ✨
 
 ## Projects:
 - ProBookstore 📙
