@@ -14,13 +14,13 @@ const tabsContainer = document.querySelector('.operations__tab-container');
 const tabsContent = document.querySelectorAll('.operations__content');
 
 /* MODAL WINDOW ******************************************/
-const openModal = event => {
+const openModal = function (event) {
   event.preventDefault();
   modal.classList.remove('hidden');
   overlay.classList.remove('hidden');
 };
 
-const closeModal = () => {
+const closeModal = function () {
   modal.classList.add('hidden');
   overlay.classList.add('hidden');
 };
