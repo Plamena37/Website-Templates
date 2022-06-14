@@ -260,3 +260,23 @@ const slider = function () {
 slider();
 
 /* CREATING COOKIE ******************************************/
+const message = document.createElement('div');
+message.classList.add('cookie-message');
+message.innerHTML =
+  'We use cookies for improved functionality and analytics. <button class="btn btn--close-cookie">Got it!</button>';
+
+// before / after 100vh
+header.after(message);
+
+// Deleting the cookie message
+document
+  .querySelector('.btn--close-cookie')
+  .addEventListener('click', function () {
+    message.remove();
+  });
+
+// Styling the cookie message
+message.style.backgroundColor = '#37383d';
+message.style.width = '100%';
+message.style.height =
+  parseFloat(getComputedStyle(message).height, 10) + 30 + 'px';
