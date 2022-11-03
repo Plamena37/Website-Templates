@@ -3,16 +3,6 @@
 
  📚 My first project with HTML5, CSS3 and just a tiny drop of JavaScript.
 
-## Here are some previews
+## Here is a preview:
 
-### Hero section
-![Hero section](https://i.imgur.com/PyiIzn1.png)
-
-### Step by step section
-![Step by step section](https://i.imgur.com/Q7xL7Jc.png)
-
-### Testimonials section
-![Testimonials section](https://i.imgur.com/n26VKku.png)
-
-### Call to action section
-![Call to action section](https://i.imgur.com/JfG4rUn.png)
+![ProBookstore](https://i.imgur.com/oxB0kDQ.jpg)

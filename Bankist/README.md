@@ -15,20 +15,9 @@
 
 ## Here are some previews:
 
-### 🪙 Hero section
-![Default](https://i.imgur.com/ebJR65M.png)
+### 🪙 Landing page
+![Bankist](https://i.imgur.com/zQSoWKs.png)
 
-
-### 🪙 Features section with lazy loading images
-![Default](https://i.imgur.com/s5RbQWC.png)
-
-
-### 🪙 Operations section 
-![Default](https://i.imgur.com/6PFlxPm.png)
-
-
-### 🪙 Testimonials section 
-![Default](https://i.imgur.com/77UYdSw.png)
 
 
 ### 🪙 Modal window 
