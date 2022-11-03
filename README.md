@@ -2,12 +2,14 @@
 ✨ Website Templates created with HTML, CSS and JavaScript ✨
 
 ## Projects:
-#### 🚀 ProBookstore 
->- responsive monthly book subscribtion, only for book worms 🐛
+#### 📒 ProBookstore 
+- responsive monthly book subscribtion, only for book worms 🐛
 
-#### 🚀 Bankist 
->- simple banking experience 🏦
+#### 🏦 Bankist 
+- simple banking experience 💰
 
+#### 🍃 Natours 
+- landing page with fiction company that offers tours in the nature 🚵‍♀️
 
 
 ### PREVIEWS:
