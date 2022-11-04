@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plamena37/Website-Templates/tree/main/Natours"
+  },
+  "author": "Plamena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Plamena37/Website-Templates/issues"
+  },
+  "homepage": "https://github.com/Plamena37/Website-Templates/tree/main/Natours",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
