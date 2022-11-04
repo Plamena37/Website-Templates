@@ -1,14 +1,14 @@
 ## Website-Templates
-✨ Website Templates created with HTML, CSS and JavaScript ✨
+✨ Website Templates created with HTML, CSS, SCSS and JavaScript ✨
 
 ## Projects:
-#### 📒 ProBookstore 
+### 📒 ProBookstore 
 - responsive monthly book subscribtion, only for book worms 🐛
 
-#### 🏦 Bankist 
+### 🏦 Bankist 
 - simple banking experience 💰
 
-#### 🍃 Natours 
+### 🍃 Natours 
 - landing page with fiction company that offers tours in the nature 🚵‍♀️
 
 
