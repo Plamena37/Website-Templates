@@ -1,0 +1,18 @@
+/**************************** BASE CODE ****************************/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* desired font-size / default font-size = 0.625 * 100 (to make it %) */
+  /* 10 / 16 = 0.625  */
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
