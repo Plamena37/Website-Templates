@@ -73,7 +73,7 @@
   max-width: $grid-width;
   // flex: 1 1 $grid-width;
   justify-content: space-between;
-  gap: 6.5rem;
+  gap: $gutter-horizontal;
 
   &:not(:last-child) {
     margin-bottom: $gutter-vertical;
