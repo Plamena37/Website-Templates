@@ -79,3 +79,8 @@
     margin-bottom: $gutter-vertical;
   }
 }
+
+.flex-column {
+  flex-direction: column;
+  row-gap: $gutter-vertical;
+}
