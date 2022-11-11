@@ -1,0 +1,23 @@
+/**************************** FLEXBOX LAYOUT ****************************/
+.flex {
+  display: flex;
+  margin: 0 auto;
+  max-width: $grid-width;
+  // flex: 1 1 $grid-width;
+  justify-content: space-between;
+  gap: $gutter-horizontal;
+
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+  }
+}
+
+.flex-column {
+  flex-direction: column;
+  row-gap: $gutter-vertical;
+}
+
+.flex__footer {
+  align-items: center;
+  margin-top: 5rem;
+}

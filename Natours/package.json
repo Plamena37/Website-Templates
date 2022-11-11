@@ -4,7 +4,8 @@
   "description": "Landing page for natours",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "chooseYourScriptName": "sass --watch sass/main.scss css/styles.css"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,7 @@
     "url": "https://github.com/Plamena37/Website-Templates/issues"
   },
   "homepage": "https://github.com/Plamena37/Website-Templates/tree/main/Natours",
-  "devDependencies": {
-    "node-sass": "^7.0.3"
+  "dependencies": {
+    "sass": "^1.56.1"
   }
 }
