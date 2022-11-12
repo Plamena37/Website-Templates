@@ -160,10 +160,7 @@
 
   // FRONT SIDE STYLING
   &__cta {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    @include absolutePositionCenter(50%, 50%, -50%, -50%);
     width: 90%;
     text-align: center;
   }

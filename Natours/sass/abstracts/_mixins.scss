@@ -1,7 +1,7 @@
-@mixin clearfix {
-  &::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+/**************************** MIXINS ****************************/
+@mixin absolutePositionCenter($topValue, $leftValue, $x, $y) {
+  position: absolute;
+  top: $topValue;
+  left: $leftValue;
+  transform: translate($x, $y);
 }
