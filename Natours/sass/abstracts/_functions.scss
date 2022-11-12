@@ -1,0 +1,4 @@
+/**************************** FUNCTIONS ****************************/
+@function base-font-size($pixels) {
+  @return percentage($pixels / 16px);
+}
