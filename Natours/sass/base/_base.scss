@@ -11,6 +11,7 @@ html {
   /* desired font-size / default font-size = 0.625 * 100 (to make it %) */
   /* 10 / 16 = 0.625  */
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
