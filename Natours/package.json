@@ -17,7 +17,7 @@
     "url": "https://github.com/Plamena37/Website-Templates/issues"
   },
   "homepage": "https://github.com/Plamena37/Website-Templates/tree/main/Natours",
-  "dependencies": {
-    "sass": "^1.56.1"
+  "devDependencies": {
+    "node-sass": "^8.0.0"
   }
 }
