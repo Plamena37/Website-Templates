@@ -1,0 +1,88 @@
+/**************************** GRID LAYOUT ****************************/
+.grid {
+  display: grid;
+  margin: 0 auto;
+  max-width: $grid-width;
+  justify-content: space-between;
+  gap: $gutter-horizontal;
+
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+
+    @include respondMax($tablet-portrait) {
+      margin-bottom: $gutter-vertical-small;
+    }
+  }
+
+  &-cols-1 {
+    grid-template-columns: 1fr;
+  }
+
+  &-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &-cols-2-popup {
+    gap: 0;
+    grid-template-columns: 1fr 2fr;
+
+    @include respondMax($tablet-landscape) {
+      grid-template-columns: 1.2fr 1.8fr;
+    }
+  }
+
+  &-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @include respondMax($tablet-portrait) {
+    max-width: 50rem;
+    width: 100% !important;
+    padding: 0 3rem;
+    gap: $gutter-vertical-small;
+
+    grid-template-columns: 1fr;
+  }
+
+  &-center-items {
+    justify-items: center;
+  }
+}
+
+/**************************** FLEXBOX LAYOUT ****************************/
+// .flex {
+//   display: flex;
+//   margin: 0 auto;
+//   max-width: $grid-width;
+//   justify-content: space-between;
+//   gap: $gutter-horizontal;
+
+//   &:not(:last-child) {
+//     margin-bottom: $gutter-vertical;
+
+//     @include respondMax($tablet-portrait) {
+//       margin-bottom: $gutter-vertical-small;
+//     }
+//   }
+
+//   @include respondMax($tablet-portrait) {
+//     width: 100% !important;
+//     max-width: 50rem;
+//     padding: 0 3rem;
+//     gap: $gutter-vertical-small;
+//   }
+
+//   &-column {
+//     flex-direction: column;
+//     row-gap: $gutter-vertical;
+//   }
+
+//   &__footer {
+//     align-items: center;
+//     margin-top: 5rem;
+//   }
+// }

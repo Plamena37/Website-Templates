@@ -13,34 +13,27 @@ html {
   font-size: base-font-size(10px);
   scroll-behavior: smooth;
 
-  //
-  @include respondMin($big-desktop) {
-    font-size: base-font-size(12px);
-  }
   @include respondMax($tablet-landscape) {
+    // width < 900
     font-size: base-font-size(9px);
   }
+
   @include respondMax($tablet-portrait) {
+    // width < 600
     font-size: base-font-size(8px);
   }
-  //
 
-  // @include respond(tab-land) {
-  //   // width < 900
-  //   font-size: 56.25%; // 1rem = 9px
-  // }
-
-  // @include respond(tab-port) {
-  //   // width < 600
-  //   font-size: 50%; // 1rem = 8px
-  // }
-
-  // @include respond(big-desktop) {
-  //   // width > 1800
-  //   font-size: 75%; // 1rem = 12px
-  // }
+  @include respondMin($big-desktop) {
+    // width > 1800
+    font-size: base-font-size(12px);
+  }
 }
 
 body {
   box-sizing: border-box;
+  padding: 3rem;
+
+  @include respondMax($tablet-portrait) {
+    padding: 0;
+  }
 }

@@ -3,6 +3,10 @@
   background-color: $color-grey-light-1;
   padding: 25rem 0;
   margin-top: -20vh;
+
+  @include respondMax($tablet-portrait) {
+    padding: 20rem 0;
+  }
 }
 
 .about-text {
@@ -29,19 +33,31 @@
   & > * {
     transform: skewY(7deg);
   }
+
+  @include respondMax($tablet-portrait) {
+    padding: 10rem 0;
+  }
 }
 
 ///////////////// SECTION TOURS /////////////////
 .section-tours {
   background-color: $color-grey-light-1;
-  padding: 25rem 0 10rem 0;
+  padding: 25rem 0 15rem 0;
   margin-top: -10rem;
+
+  @include respondMax($tablet-portrait) {
+    padding: 20rem 0 10rem 0;
+  }
 }
 
 ///////////////// SECTION STORIES /////////////////
 .section-stories {
-  padding: 15rem 0 3.5rem 0;
+  padding: 15rem 0;
   position: relative;
+
+  @include respondMax($tablet-portrait) {
+    padding: 10rem 0;
+  }
 }
 
 ///////////////// SECTION BOOKING /////////////////
@@ -52,6 +68,10 @@
     $color-primary-light,
     $color-primary-dark
   );
+
+  @include respondMax($tablet-portrait) {
+    padding: 10rem 0;
+  }
 }
 
 .book {
