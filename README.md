@@ -25,5 +25,9 @@
 ![Bankist](https://i.imgur.com/ebJR65M.png)
 
 
+### [Natours](https://bankist-template.netlify.app/)
+![Bankist](https://i.imgur.com/edBIVnd.png)
+
+
 ### [Trillo](https://bankist-template.netlify.app/)
 ![Trillo](https://i.imgur.com/edQiYph.png)
