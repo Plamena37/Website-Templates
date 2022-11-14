@@ -1,24 +1,25 @@
-# Bankist
+# Natours 🍃
 
-# Welcome to [Bankist](https://bankist-template.netlify.app/)!
+# Welcome to [Natours](https://bankist-template.netlify.app/)!
 
-💸A minimalist banking website template.
+🚵‍♀️ A landing page with fiction company that offers tours in the nature.
 
 ### Features:
+⚠️ High use case of CSS ***animation***, ***keyframes***, ***transforms*** and ***transitions***!
+
 > - Menu fade animation;
-> - Lazy loading on images;
-> - Modal window;
-> - Smooth navigation scrolling;
-> - Sticky navigation;
-> - Smooth section revealing;
-> - Slider;
+> - Compex animated buttons;
+> - Pure CSS popup;
+> - Lots of hover effects on images, headings, buttons, cards;
+> - Responsive design;
+
 
 ## Here are some previews:
 
-### 🪙 Landing page
-![Bankist](https://i.imgur.com/zQSoWKs.png)
+### 🍃 Landing page
+![Default](https://i.imgur.com/1571blg.jpg)
 
 
 
-### 🪙 Modal window 
-![Default](https://i.imgur.com/kBhX8R0.png)
+### 🍃 Responsive design
+![Default](https://i.imgur.com/zix84wW.png)
