@@ -36,4 +36,12 @@
 
 .u-margin-top-huge {
   margin-top: 10rem !important;
+
+  @include respondMax($tablet-landscape) {
+    margin-top: 5rem !important;
+  }
+
+  @include respondMax($tablet-portrait) {
+    margin-top: 3rem !important;
+  }
 }

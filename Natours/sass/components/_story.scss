@@ -9,8 +9,21 @@
   font-size: $default-font-size;
   transform: skewX(-12deg);
 
+  @include respondMax($tablet-portrait) {
+    width: 100%;
+    padding: 4rem 4rem 4rem 7rem;
+  }
+
+  @include respondMax($phone) {
+    transform: skewX(0);
+  }
+
   & > * {
     transform: skewX(12deg);
+
+    @include respondMax($phone) {
+      transform: skewX(0);
+    }
   }
 
   &__shape {
@@ -23,6 +36,10 @@
     // "margin right" on the float element
     transform: translateX(-3rem) skewX(12deg);
     position: relative;
+
+    @include respondMax($phone) {
+      transform: translateX(-3rem) skewX(0);
+    }
   }
 
   &__img {
