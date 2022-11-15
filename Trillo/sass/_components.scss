@@ -274,6 +274,14 @@
     align-items: center;
     transform: translateY(101%);
     transition: all 0.2s ease-out;
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 1.5rem;
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+      font-size: 1.2rem;
+    }
   }
 
   &__item:hover &__caption {
