@@ -39,6 +39,11 @@ $bp-smallest: 31.25em; // 500px
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-large) {
+    // 8px
+    font-size: 50%;
+  }
 }
 
 body {
@@ -55,4 +60,9 @@ body {
   background-repeat: no-repeat;
 
   min-height: 100vh;
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-white);
 }
