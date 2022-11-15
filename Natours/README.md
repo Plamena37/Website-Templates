@@ -1,6 +1,6 @@
 # Natours 🍃
 
-# Welcome to [Natours](https://bankist-template.netlify.app/)!
+# Welcome to [Natours](https://natours-plamena.netlify.app/)
 
 🚵‍♀️ A landing page with fiction company that offers tours in the nature.
 
