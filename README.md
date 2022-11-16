@@ -14,6 +14,9 @@
 ### 🗺️ Trillo 
 - all in one booking app - hotel, flight, car rental and tours ✈️
 
+### 🏡 Nexter
+- landing page of a fiction company which sells luxury homes across the world 🌍
+
 
 ### PREVIEWS:
 
