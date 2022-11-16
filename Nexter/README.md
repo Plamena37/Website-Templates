@@ -1,11 +1,11 @@
 <!-- npm run start -->
 <!-- \"last 10 versions\" -->
 
-# Trillo
+# Nexter
 
-# Welcome to [Trillo](https://bankist-template.netlify.app/) 🗺️
+# Welcome to [Nexter](https://bankist-template.netlify.app/) 🏡
 
-All in one booking app - hotel, flight, car rental and tours ✈️
+Landing page of a fiction company called Nexter which sells luxury homes across the world 🌍
 
 ### Used:
 
@@ -17,4 +17,4 @@ All in one booking app - hotel, flight, car rental and tours ✈️
 
 ## Here is a preview:
 
-![Trillo](https://i.imgur.com/edQiYph.png)
+![Nexter](https://i.imgur.com/edQiYph.png)
