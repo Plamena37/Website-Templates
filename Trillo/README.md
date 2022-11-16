@@ -1,9 +1,8 @@
-<!-- npm run start -->
 # Trillo
 
-# Welcome to [Trillo](https://bankist-template.netlify.app/) 🗺️
+# Welcome to [Trillo](https://trillo-plamena.netlify.app/) 🗺️
 
-All in one booking app - hotel, flight, car rental and tours ✈️
+✈️ All in one booking app - hotel, flight, car rental and tours 
 
 ### Used:
 > - flexbox design
@@ -12,6 +11,13 @@ All in one booking app - hotel, flight, car rental and tours ✈️
 > - animations on hover, focus and active state
 > - responsive design
 
-## Here is a preview:
+## Desktop version:
 
-![Trillo](https://i.imgur.com/edQiYph.png)
+![Trillo](https://i.imgur.com/t4sLUFk.png)
+
+
+## Mobile version:
+
+![Trillo](https://i.imgur.com/fABAl0C.png)
+
+

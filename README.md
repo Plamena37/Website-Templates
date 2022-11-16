@@ -29,5 +29,5 @@
 ![Bankist](https://i.imgur.com/edBIVnd.png)
 
 
-### [Trillo](https://bankist-template.netlify.app/)
-![Trillo](https://i.imgur.com/edQiYph.png)
+### [Trillo](https://trillo-plamena.netlify.app/)
+![Trillo](https://i.imgur.com/t4sLUFk.png)
