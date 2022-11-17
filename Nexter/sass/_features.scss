@@ -4,10 +4,13 @@
   margin: 15rem 0;
 
   display: grid;
-  // grid-template-columns: repeat(3, 1fr);
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 6rem;
   align-items: start;
+
+  @media only screen and (max-width: $bp-small) {
+    margin: 10rem 0;
+  }
 }
 
 .feature {
