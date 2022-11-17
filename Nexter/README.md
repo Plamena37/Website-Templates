@@ -1,20 +1,22 @@
-<!-- npm run start -->
-<!-- \"last 10 versions\" -->
-
 # Nexter
 
-# Welcome to [Nexter](https://bankist-template.netlify.app/) 🏡
+# Welcome to [Nexter](https://nexter-plamena.netlify.app/) 🏡
 
 Landing page of a fiction company called Nexter which sells luxury homes across the world 🌍
 
 ### Used:
 
-> - flexbox design
-> - css variables
-> - keyframe, transition, transform properties
-> - animations on hover, focus and active state
+> - grid layout
+> - masonry
 > - responsive design
 
-## Here is a preview:
 
-![Nexter](https://i.imgur.com/edQiYph.png)
+## Desktop version:
+
+![Nexter](https://i.imgur.com/cGSFFYo.jpg)
+
+
+
+## Mobile version:
+
+![Nexter](https://i.imgur.com/e2wDbiY.png)
